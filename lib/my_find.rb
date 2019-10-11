@@ -5,7 +5,7 @@ def my_find(collection)
   result = nil
   while i < collection.length do
     if !result
-      
+
     end
   end
 end
