@@ -9,5 +9,6 @@ def my_find(collection)
     else
       result = yield(collection[i])
     end
+    i += 1
   end
 end
