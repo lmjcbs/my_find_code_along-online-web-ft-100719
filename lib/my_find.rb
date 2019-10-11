@@ -7,7 +7,7 @@ def my_find(collection)
     if result
       return result
     else
-      result << yield collection[i] if 
+      result << yield(collection[i]) if 
     end
   end
 end
